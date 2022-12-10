@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+
+body {background-color: #d3bed0;
+color: #000;
+font-size: 16px;
+font-weight:normal;
+font-family: 'Roboto', sans-serif;
+}
+
+a {
+color:blue;
+text-decoration: none;}
+a:hover{
+text-decoration: underline ;
+}
+a:active{
+    color:aqua
+
+}
+a:visited{
+    color:gray
+}
+
+.free{
+    margin-bottom: 20px;
+    /*display: flex;*/
+}
+
+.foot {width: 200px;
+border-radius: 10px;
+box-shadow: 4px 4px 14px rgba(0, 0,0,025 );
+
+}
+.free p {
+    color: rgb(65, 63, 63);
+    margin: 0;
+    font-style: italic;
+    text-decoration:underline ;
+    /*text-transform: capitalize; */
+}
+.card{
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+.bg-yellow{background: #fff9dc;
+
+}
+.bg-green{background: #e5ffe7;
+    
+}
+.bg-red{background: #ffe5e5; 
+}
+.bg-black{
+    background: rgb(147, 180, 170);
+}
+.list{
+padding: 0 20px;
+}
+.list li{
+    margin-bottom: 10px;
+}
+.contact h2{
+text-align: center;
+}
+.vas label {
+display: block;
+font-size: 10px;
+
+}
+.vas input,
+.vas textarea{
+width: 50%;
+box-sizing: border-box;
+border: none;
+border-bottom: 2px solid #000;
+outline: none;
+font-family: inherit;
+padding: 15px 0 10px;
+margin-bottom: 20px;
+}
+.btn {
+background: #000;
+    color:#fff;
+padding: 15px 20px;
+cursor: pointer;
+}
+.btn {
+opacity: 0.9 ;
+}
